@@ -56,21 +56,21 @@ int main(int argc, char *argv[])
 
 	printf("\n\nBytes Needed to Store Datatypes\n\n");
 	size_t szb = sizeof(bool);
-	printf("%zu\n", szb);
+	printf("A bool is %zu bytes\n", szb);
 	size_t szch = sizeof(char);
-	printf("%zu\n", szch);
+	printf("A char is %zu bytes\n", szch);
 	size_t szsh = sizeof(short);
-	printf("%zu\n", szsh);
+	printf("A short is %zu bytes\n", szsh);
 	size_t szint = sizeof(int);
-	printf("%zu\n", szint);
+	printf("An int is %zu bytes\n", szint);
 	size_t szl = sizeof(long);
-	printf("%zu\n", szl);
+	printf("A long is %zu bytes\n", szl);
 	size_t szll = sizeof(long long);
-	printf("%zu\n", szll);
+	printf("A long long is %zu bytes\n", szll);
 	size_t szfl = sizeof(float);
-	printf("%zu\n", szfl);
+	printf("A float is %zu bytes\n", szfl);
 	size_t szdb = sizeof(double);
-	printf("%zu\n", szdb);
+	printf("A double is %zu bytes\n", szdb);
 
 	printf("\n\nSigned or Unsigned Values of Datatypes\n\n");
 	
@@ -124,9 +124,9 @@ int main(int argc, char *argv[])
 		exit(EXIT_FAILURE);
 	} else {
 		int val = atoi(argv[1]);
-		/* UNCOMMENT THE FOLLOWING LINE WHEN STARTING PART 5
+		// UNCOMMENT THE FOLLOWING LINE WHEN STARTING PART 5
 		printf("Value of %d => grade '%c'\n", val, calc_grade(val));
-		*/
+		
 	}
 	return 0;
 }
